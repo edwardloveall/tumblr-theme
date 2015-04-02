@@ -1,0 +1,45 @@
+article {
+  margin-bottom: $base-spacing * 6;
+
+  &:last-of-type {
+    margin-bottom: $base-spacing * 2;
+  }
+
+  h2 {
+    font-size: $large-font-size;
+    text-align: center;
+  }
+}
+
+aside.meta {
+  font-family: $sans-serif;
+  font-size: $small-font-size;
+  margin-bottom: $base-spacing * 3;
+  text-align: center;
+
+  a {
+    color: $medium-gray;
+  }
+}
+
+pre {
+  padding: $base-spacing / 2;
+  white-space: pre-wrap;
+
+  code {
+    padding: 0;
+  }
+}
+
+pre,
+code {
+  background: $light-gray;
+  border-radius: .15em;
+  color: $dark-gray;
+  font-family: $monospace;
+  font-size: $small-font-size;
+}
+
+code {
+  padding: .1em .3em;
+}

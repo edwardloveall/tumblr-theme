@@ -1,0 +1,64 @@
+@import 'bourbon/bourbon';
+@import 'variables';
+@import 'logo';
+@import 'posts';
+@import 'footer';
+
+* {
+  @include box-sizing(border-box);
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $line-height;
+  padding: 0 $base-spacing * 2;
+}
+
+main {
+  margin: 0 auto;
+  max-width: $max-width;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $sans-serif;
+  font-weight: 700;
+  line-height: $header-line-height;
+  margin-bottom: $base-spacing;
+}
+
+h1 {
+  margin-bottom: $base-spacing;
+}
+
+a {
+  @include transition(color .1s ease);
+  color: $accent-color;
+  text-decoration: none;
+
+  &:hover {
+    @include transition(color .3s ease);
+    color: $text-color;
+  }
+}
+
+ol,
+ul {
+  list-style-position: inside;
+}
+
+ol,
+p,
+pre,
+ul {
+  margin-bottom: $base-spacing;
+}

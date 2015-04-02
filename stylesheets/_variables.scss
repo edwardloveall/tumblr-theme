@@ -1,0 +1,23 @@
+$serif: 'garamond-premier-pro-caption', $georgia;
+$sans-serif: 'proxima-nova', $helvetica;
+$monospace: 'source-code-pro';
+$base-font-family: $serif;
+$base-font-size: 20px;
+$small-font-size: 14px;
+$large-font-size: 24px;
+$line-height: 1.4;
+$header-line-height: 1.2;
+
+$base-spacing: 1em;
+$max-width: 640px;
+
+$blue: #62b6e0;
+$red: #e95555;
+$accent-color: $red;
+$bias: 3;
+$dark-gray: mix($blue, #3a3a3a, $bias);
+$medium-gray: mix($blue, #717171, $bias);
+$light-gray: mix($blue, #ededed, $bias);
+$almost-white: #fbfbfb;
+$text-color: $dark-gray;
+$background-color: $almost-white;
