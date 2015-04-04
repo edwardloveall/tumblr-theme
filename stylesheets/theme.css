@@ -482,6 +482,8 @@ footer {
   margin: 1em 0;
   text-align: center; }
 
+header.image h1 {
+  margin-bottom: 0.5em; }
 header.image a .orbit {
   display: none; }
 
