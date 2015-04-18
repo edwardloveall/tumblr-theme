@@ -467,13 +467,22 @@ pre {
 pre,
 code {
   background: #e8ebec;
-  border-radius: .15em;
+  border-radius: 2px;
   color: #3b3d3e;
   font-family: "source-code-pro";
   font-size: 14px; }
 
 code {
   padding: .1em .3em; }
+
+blockquote {
+  background-color: #e8ebec;
+  border-radius: 2px;
+  color: #707374;
+  padding: 0.5em;
+  padding-left: 1em; }
+  blockquote p {
+    margin-bottom: 0; }
 
 footer {
   color: #707374;
@@ -537,6 +546,7 @@ ol,
 ul {
   list-style-position: inside; }
 
+blockquote,
 ol,
 p,
 pre,
