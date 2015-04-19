@@ -484,6 +484,11 @@ blockquote {
   blockquote p {
     margin-bottom: 0; }
 
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; }
+
 footer {
   color: #707374;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
