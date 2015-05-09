@@ -9,6 +9,12 @@ article {
     font-size: $large-font-size;
     text-align: center;
   }
+
+  img {
+    display: block;
+    margin: 0 auto 1em;
+    max-width: 100%;
+  }
 }
 
 aside.meta {
@@ -54,10 +60,4 @@ blockquote {
   p {
     margin-bottom: 0;
   }
-}
-
-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
 }
