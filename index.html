@@ -85,7 +85,14 @@ end
       <ul>
         <li><code>User</code></li>
         <li><code>Business</code></li>
-        <li><code>Product</code></li>
+        <li>
+          <code>Product</code>
+          <ul>
+            <li>
+              Alternatively, change your network name to <code>Death Star</code>.
+            </li>
+          </ul>
+        </li>
       </ul>
       <p>Or perhaps <code>label</code></p>
       <ul>
@@ -102,53 +109,7 @@ end
       </ul>
       <p>This won&rsquo;t cover everything, of course. Categories can have a <code>name</code> and Products can have a <code>label</code>, but sticking to title instead doesn&rsquo;t break many grammar rules. And like with everything in Rails, occasional exceptions are just fine.</p>
     </article>
-    <article class="text">
-      <h2 class="title">
-        <a href="http://edwardloveall.tumblr.com/post/115065651732/naming-conventions-for-string-identifiers-in-rails">Rails Naming Conventions for String Identifiers</a>
-      </h2>
-      <aside class="meta">
-        <a href="#">
-          Posted <time datetime="2014-09-4 19:52">September 4th, 2015</time>
-        </a>
-      </aside>
-      <p>Rails has many <a href="/">conventions</a>. It&rsquo;s one of the reasons I&rsquo;ve felt so successful with it. I can let go of a lot of decisions and trust the framework to do the right thing. However, it doesn&rsquo;t (and couldn&rsquo;t) have a convention for <em>everything</em>. For instance, there&rsquo;s no convention for what to call an identifying string on a model.</p>
-      <h3>An Example</h3>
-      <p>What is the field you identify a <code>Category</code> by? Here are some choices:</p>
-      <pre><code>class Greeting
-  def self.hello
-    "Hello!"
-  end
 
-  def self.compliment
-    "You look lovely today."
-  end
-end</code></pre>
-      <ul>
-        <li><code>name</code></li>
-        <li><code>title</code></li>
-        <li><code>label</code></li>
-      </ul>
-      <p>I think <code>title</code> is probably the best choice out of those. However there are many circumstances where <code>name</code> works just as well:</p>
-      <ul>
-        <li><code>User</code></li>
-        <li><code>Business</code></li>
-        <li><code>Product</code></li>
-      </ul>
-      <p>Or perhaps <code>label</code></p>
-      <ul>
-        <li><code>Mailing</code></li>
-        <li><code>UPC</code></li>
-        <li><code>RFID</code></li>
-      </ul>
-      <p>There are many options and it starts to get pretty confusing, especially since there are multiple names that make sense in the same situation. I&rsquo;ve been on many projects where we&rsquo;ve used these interchangeably and it&rsquo;s a mess.</p>
-      <h3>The Convention</h3>
-      <p>So here&rsquo;s what I&rsquo;m trying:</p>
-      <ul>
-        <li>For identifying strings, use <code>title</code></li>
-        <li>Unless it represents a person or animal, then use <code>name</code></li>
-      </ul>
-      <p>This won&rsquo;t cover everything, of course. Categories can have a <code>name</code> and Products can have a <code>label</code>, but sticking to title instead doesn&rsquo;t break many grammar rules. And like with everything in Rails, occasional exceptions are just fine.</p>
-    </article>
     <footer>
       Written by <a target="_blank" href="http://edwardloveall.com">Edward Loveall</a>
     </footer>
