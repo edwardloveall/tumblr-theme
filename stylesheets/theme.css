@@ -548,7 +548,12 @@ a {
 
 ol,
 ul {
-  list-style-position: inside; }
+  list-style-position: inside;
+  list-style-type: disc; }
+
+li ul,
+li ol {
+  margin-left: 1em; }
 
 blockquote,
 ol,

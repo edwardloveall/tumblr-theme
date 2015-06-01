@@ -56,6 +56,14 @@ a {
 ol,
 ul {
   list-style-position: inside;
+  list-style-type: disc;
+}
+
+li {
+  ul,
+  ol {
+    margin-left: $base-spacing;
+  }
 }
 
 blockquote,
