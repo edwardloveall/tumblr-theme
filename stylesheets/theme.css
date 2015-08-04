@@ -453,6 +453,10 @@ article {
     display: block;
     margin: 0 auto 1em;
     max-width: 100%; }
+  article hr {
+    border: none;
+    border-bottom: 1px solid #e9ebed;
+    margin-bottom: 1em; }
 
 aside.meta {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -460,7 +464,7 @@ aside.meta {
   margin-bottom: 3em;
   text-align: center; }
   aside.meta a {
-    color: #707374; }
+    color: #717374; }
 
 pre {
   padding: 0.5em;
@@ -470,9 +474,9 @@ pre {
 
 pre,
 code {
-  background: #e8ebec;
+  background: #e9ebed;
   border-radius: 2px;
-  color: #3b3d3e;
+  color: #3b3e3f;
   font-family: "source-code-pro";
   font-size: 14px; }
 
@@ -480,16 +484,16 @@ code {
   padding: .1em .3em; }
 
 blockquote {
-  background-color: #e8ebec;
+  background-color: #e9ebed;
   border-radius: 2px;
-  color: #707374;
+  color: #717374;
   padding: 0.5em;
   padding-left: 1em; }
   blockquote p {
     margin-bottom: 0; }
 
 footer {
-  color: #707374;
+  color: #717374;
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-size: 14px;
   margin: 1em 0;
@@ -509,7 +513,7 @@ header.image a .orbit {
 
 body {
   background-color: #fbfbfb;
-  color: #3b3d3e;
+  color: #3b3e3f;
   font-family: "garamond-premier-pro-caption", Georgia, Cambria, "Times New Roman", Times, serif;
   font-size: 20px;
   line-height: 1.4;
@@ -544,7 +548,7 @@ a {
     -webkit-transition: color 0.3s ease;
     -moz-transition: color 0.3s ease;
     transition: color 0.3s ease;
-    color: #3b3d3e; }
+    color: #3b3e3f; }
 
 ol,
 ul {
